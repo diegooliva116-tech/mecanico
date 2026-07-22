@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MOTOR TOTAL - Taller mecánico de confianza. Servicio automotor profesional, diagnóstico computarizado y mantenimiento preventivo.">
+    <title>MOTOR TOTAL | Taller Mecánico</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <i class="fas fa-cog logo-icon"></i>
+                MOTOR<span>TOTAL</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#galeria">Trabajos</a></li>
+                <li><a href="#opiniones">Opiniones</a></li>
+                <li><a href="#contacto" class="nav-cta">Pedir turno</a></li>
+            </ul>
+            <div class="nav-hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-badge reveal">
+                <i class="fas fa-shield-alt"></i>
+                Más de 15 años de experiencia
+            </div>
+            <h1 class="reveal">Tu auto en las <span>mejores manos</span></h1>
+            <p class="reveal">Servicio mecánico profesional con tecnología de última generación. Diagnóstico preciso, reparación garantizada y precios justos.</p>
+            <div class="hero-btns reveal">
+                <a href="#contacto" class="btn btn-primary">
+                    <i class="fab fa-whatsapp"></i> Pedir turno
+                </a>
+                <a href="#servicios" class="btn btn-ghost">
+                    Ver servicios
+                </a>
+            </div>
+            <div class="hero-stats reveal">
+                <div class="hero-stat">
+                    <strong id="counter1">0</strong>
+                    <span>Autos reparados</span>
+                </div>
+                <div class="hero-stat">
+                    <strong>4.9 ★</strong>
+                    <span>En Google</span>
+                </div>
+                <div class="hero-stat">
+                    <strong>100%</strong>
+                    <span>Garantía</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section servicios" id="servicios">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag"><i class="fas fa-wrench"></i> Servicios</span>
+                <h2>¿Qué hacemos por <span>tu auto</span>?</h2>
+                <p>Cubrimos todo lo que tu vehículo necesita. Desde el mantenimiento básico hasta reparaciones complejas.</p>
+            </div>
+            <div class="servicios-grid">
+                <div class="servicio-card reveal">
+                    <div class="servicio-icon"><i class="fas fa-oil-can"></i></div>
+                    <h3>Service completo</h3>
+                    <p>Cambio de aceite, filtros, revisión de frenos y control general de 25 puntos.</p>
+                </div>
+                <div class="servicio-card reveal">
+                    <div class="servicio-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Diagnóstico computarizado</h3>
+                    <p>Scanner profesional para detectar fallas electrónicas con precisión total.</p>
+                </div>
+                <div class="servicio-card reveal">
+                    <div class="servicio-icon"><i class="fas fa-car-crash"></i></div>
+                    <h3>Tren delantero</h3>
+                    <p>Alineación, balanceo, cambio de amortiguadores y rótulas.</p>
+                </div>
+                <div class="servicio-card reveal">
+                    <div class="servicio-icon"><i class="fas fa-snowflake"></i></div>
+                    <h3>Aire acondicionado</h3>
+                    <p>Carga de gas, limpieza de conductos y reparación del sistema completo.</p>
+                </div>
+                <div class="servicio-card reveal">
+                    <div class="servicio-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>Mecánica general</h3>
+                    <p>Embrague, distribución, motor, caja de cambios y todo tipo de reparaciones.</p>
+                </div>
+                <div class="servicio-card reveal">
+                    <div class="servicio-icon"><i class="fas fa-car-battery"></i></div>
+                    <h3>Sistema eléctrico</h3>
+                    <p>Alternador, arranque, batería, luces y toda la parte eléctrica del vehículo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="section nosotros" id="nosotros">
+        <div class="container">
+            <div class="nosotros-grid">
+                <div class="nosotros-img reveal-left">
+                    <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=600&q=80" alt="Mecánico trabajando profesionalmente">
+                    <div class="nosotros-badge">
+                        <strong>15+</strong>
+                        <span>Años de experiencia</span>
+                    </div>
+                </div>
+                <div class="nosotros-texto reveal-right">
+                    <span class="section-tag"><i class="fas fa-users"></i> Nosotros</span>
+                    <h2>Mecánicos de verdad, <span>confianza real</span></h2>
+                    <p>No somos un taller más. Somos un equipo de profesionales que ama lo que hace. Tu auto lo tratamos como si fuera nuestro.</p>
+                    <p>Trabajamos con repuestos originales y alternativos de primera calidad. Sin vueltas, sin sorpresas, con presupuesto previo siempre.</p>
+                    <div class="nosotros-checks">
+                        <div class="check-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Presupuesto sin cargo</span>
+                        </div>
+                        <div class="check-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Repuestos de calidad</span>
+                        </div>
+                        <div class="check-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Garantía en todos los trabajos</span>
+                        </div>
+                        <div class="check-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Todas las marcas y modelos</span>
+                        </div>
+                        <div class="check-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Turnos programados</span>
+                        </div>
+                        <div class="check-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Te avisamos antes de hacer algo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BANNER CTA -->
+    <section class="banner-cta">
+        <div class="container">
+            <div class="banner-content reveal">
+                <div class="banner-texto">
+                    <h3>¿Tu auto necesita atención?</h3>
+                    <p>Escribinos por WhatsApp y coordinamos un turno. Respuesta inmediata.</p>
+                </div>
+                <a href="https://wa.me/5491123456789?text=Hola!%20Necesito%20un%20turno%20para%20mi%20auto" target="_blank" class="btn btn-primary btn-grande">
+                    <i class="fab fa-whatsapp"></i> Pedir turno ahora
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="section galeria" id="galeria">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag"><i class="fas fa-images"></i> Trabajos</span>
+                <h2>Nuestro <span>taller en acción</span></h2>
+                <p>Así trabajamos. Profesionalismo, orden y las herramientas adecuadas para cada trabajo.</p>
+            </div>
+            <div class="galeria-grid">
+                <div class="galeria-item reveal">
+                    <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=500&q=80" alt="Interior del taller mecánico" loading="lazy">
+                </div>
+                <div class="galeria-item reveal">
+                    <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=500&q=80" alt="Mecánico revisando motor" loading="lazy">
+                </div>
+                <div class="galeria-item reveal">
+                    <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=500&q=80" alt="Trabajo de mecánica profesional" loading="lazy">
+                </div>
+                <div class="galeria-item reveal">
+                    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&q=80" alt="Auto en el taller" loading="lazy">
+                </div>
+                <div class="galeria-item reveal">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=500&q=80" alt="Herramientas profesionales" loading="lazy">
+                </div>
+                <div class="galeria-item reveal">
+                    <img src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=500&q=80" alt="Diagnóstico computarizado" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OPINIONES -->
+    <section class="section opiniones" id="opiniones">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag"><i class="fas fa-star"></i> Opiniones</span>
+                <h2>Lo que dicen <span>nuestros clientes</span></h2>
+            </div>
+            <div class="opiniones-grid">
+                <div class="opinion-card reveal">
+                    <div class="opinion-stars">★★★★★</div>
+                    <p>"Llevé mi auto pensando que era algo grave y resultó ser una pavada. Me cobraron lo justo y me lo explicaron todo. De ahora en más, mi taller de confianza."</p>
+                    <div class="opinion-autor">
+                        <div class="autor-avatar">MR</div>
+                        <div>
+                            <strong>Martín R.</strong>
+                            <span>Ford Focus 2019</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="opinion-card reveal">
+                    <div class="opinion-stars">★★★★★</div>
+                    <p>"Excelente atención. Le hicieron el service completo a mi Corolla y quedó impecable. Puntualidad y honestidad, dos cosas difíciles de encontrar hoy en día."</p>
+                    <div class="opinion-autor">
+                        <div class="autor-avatar">CL</div>
+                        <div>
+                            <strong>Carolina L.</strong>
+                            <span>Toyota Corolla 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="opinion-card reveal">
+                    <div class="opinion-stars">★★★★★</div>
+                    <p>"Se me rompió la distribución en plena ruta y me lo solucionaron rápido. Quedó andando perfecto. Muy profesionales y buena gente. Recomendados al 100%."</p>
+                    <div class="opinion-autor">
+                        <div class="autor-avatar">JP</div>
+                        <div>
+                            <strong>Juan Pablo S.</strong>
+                            <span>VW Vento 2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section contacto" id="contacto">
+        <div class="container">
+            <div class="contacto-grid">
+                <div class="contacto-info reveal-left">
+                    <span class="section-tag"><i class="fas fa-map-marker-alt"></i> Contacto</span>
+                    <h2>Traé tu auto, <span>nosotros lo resolvemos</span></h2>
+                    <p>Pedí tu turno por WhatsApp o completá el formulario. Te respondemos rápido.</p>
+
+                    <div class="info-lista">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Dirección</strong>
+                                <p>Av. San Martín 3456, Villa Crespo<br>Buenos Aires, Argentina</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <strong>Teléfono</strong>
+                                <p>+54 11 5555-1234</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <p>+54 11 5555-5678</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Horario</strong>
+                                <p>Lunes a Viernes: 8:00 a 18:00<br>Sábados: 8:00 a 13:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contacto-redes">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <form class="contacto-form reveal-right" id="formContacto">
+                    <h3><i class="fas fa-calendar-check"></i> Pedí tu turno</h3>
+                    <div class="form-fila">
+                        <input type="text" placeholder="Tu nombre" required>
+                        <input type="tel" placeholder="Tu teléfono" required>
+                    </div>
+                    <input type="text" placeholder="Marca y modelo del auto" required>
+                    <select required>
+                        <option value="">¿Qué necesita tu auto?</option>
+                        <option>Service / Mantenimiento</option>
+                        <option>Diagnóstico computarizado</option>
+                        <option>Tren delantero</option>
+                        <option>Aire acondicionado</option>
+                        <option>Mecánica general</option>
+                        <option>Sistema eléctrico</option>
+                        <option>Frenos</option>
+                        <option>No sé qué tiene (revisión)</option>
+                    </select>
+                    <textarea placeholder="Contanos qué le pasa a tu auto..." rows="3"></textarea>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span class="btn-texto">Enviar solicitud de turno</span>
+                        <span class="btn-cargando" style="display:none"><i class="fas fa-spinner fa-spin"></i> Enviando...</span>
+                    </button>
+                </form>
+            </div>
+
+            <div class="mapa reveal">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5!2d-58.44!3d-34.60!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDM2JzAwLjAiUyA1OMKwMjYnMjQuMCJX!5e0!3m2!1ses!2sar"
+                    width="100%" 
+                    height="300" 
+                    style="border:0; border-radius:12px; filter: grayscale(30%);" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    title="Ubicación del taller">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-marca">
+                    <div class="footer-logo"><i class="fas fa-cog"></i> MOTOR<span>TOTAL</span></div>
+                    <p>Tu taller mecánico de confianza. Más de 15 años cuidando tu auto con profesionalismo y honestidad.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#servicios">Service completo</a></li>
+                        <li><a href="#servicios">Diagnóstico</a></li>
+                        <li><a href="#servicios">Tren delantero</a></li>
+                        <li><a href="#servicios">Aire acondicionado</a></li>
+                        <li><a href="#servicios">Mecánica general</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="tel:+541155551234">+54 11 5555-1234</a></li>
+                        <li><a href="#">Av. San Martín 3456</a></li>
+                        <li><a href="#">Villa Crespo, CABA</a></li>
+                        <li><a href="#">Lun a Vie: 8 a 18</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 MOTOR TOTAL · Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WHATSAPP -->
+    <a href="https://wa.me/5491155551234?text=Hola!%20Necesito%20un%20turno%20para%20mi%20auto" 
+       class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+        <button class="lb-cerrar" id="lbCerrar">&times;</button>
+        <button class="lb-flecha lb-prev" id="lbPrev"><i class="fas fa-chevron-left"></i></button>
+        <button class="lb-flecha lb-next" id="lbNext"><i class="fas fa-chevron-right"></i></button>
+        <img src="" alt="" id="lbImg">
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
